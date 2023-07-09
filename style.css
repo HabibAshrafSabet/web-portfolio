@@ -151,6 +151,9 @@ section{
     font-size: 30px;
     font-weight: 700;
 }
+.resume-item-area{
+    background: #FFF8F3;
+}
 .resume-area{
     display: flex;
     padding: 0px 130px;
@@ -178,4 +181,30 @@ section{
 .btn-center{
     text-align: center;
     margin-top: 50px;
+}
+/* footer section area style */
+footer{
+    background: #FFF8F3;
+}
+.footer-area{
+    display: flex;
+    gap: 70px;
+    margin: 30px 200px;
+    
+}
+.contact-form input,textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    border-radius: 10px;
+    background: whitesmoke;
+    border: 0px;
+    
+}
+.footer-half-area-title{
+    text-align: center;
+}
+.footer-half-area-description{
+    color: dimgray;
+    font-weight: 400;
 }
