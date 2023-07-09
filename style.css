@@ -84,6 +84,7 @@ main .about-side{
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    
 }
 .about-section{
     color: #757575;
@@ -91,7 +92,7 @@ main .about-side{
     font-size: 18px;
 }
 section{
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .about-info-area{
     display: flex;
@@ -110,12 +111,35 @@ section{
 /* what i do section style  */
 .what-i-do-title{
     text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    
 }
 .what-i-do-description{
     padding: 20px 200px;
+    color: dimgray;
 }
 .skills-area-box{
     display: flex;
-    
     justify-content: space-around;
+    padding: 0 70px;
+    gap: 20px;
+}
+.skills-area{
+    padding: 40px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}   
+.skills-title{
+    color: brown;
+} 
+.skills-description{
+    color: dimgray;
+}
+/* resume section style */
+.resume-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
 }
