@@ -22,6 +22,9 @@ nav{
     padding: 16px 35px;
     border-radius: 10px;
 }
+.common-btn:hover{
+    font-size: x-large;
+}
 .logo{
     color: #181818;
     font-size: 45px;
